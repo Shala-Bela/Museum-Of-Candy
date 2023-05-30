@@ -16,6 +16,7 @@ body{
 }
 .content{
     margin-top:100px;
+    margin-bottom:100px;
 }
 #mainNavbar {
     font-size: 1.5rem;
@@ -37,6 +38,11 @@ body{
 
 #headingGroup span{
     color: #EA1C2C;
+}
+
+.navbar.scrolled{
+    background: rgb(222,192,222);
+    transition:500ms;
 }
 
 @media (max-width: 1200px) {
